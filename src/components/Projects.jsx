@@ -18,7 +18,8 @@ const Projects = () => {
 					demoUrl="https://kanban-frontend-angular.vercel.app"
 				>
 					Aplicación web fullstack de tableros kanban desarrollada
-					utilzando Angular, ExpressJS con Typescript y PostgreSQL.
+					utilzando Angular, ExpressJS con Typescript, Prisma y
+					PostgreSQL.
 				</ProjectItem>
 			</div>
 		</div>
