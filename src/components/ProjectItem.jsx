@@ -9,6 +9,7 @@ const ProjectItem = ({
 	backendUrl = "/",
 	frontendUrl = "/",
 	demoUrl = "/",
+	children,
 }) => {
 	return (
 		<div className="flex xl:space-x-12 space-y-8 flex-col xl:flex-row items-center px-2 md:px-0 ">
@@ -17,12 +18,10 @@ const ProjectItem = ({
 					{title}
 				</h1>
 				<p className="text-[1.05rem] mt-5 font-serif text-stone-600">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Culpa, blanditiis! Nulla quasi saepe provident quae iure
-					nesciunt quidem perferendis praesentium officiis maxime rem.
+					{children}
 				</p>
 
-				<div className="flex space-x-2 my-4">
+				<div className="flex space-x-2 mb-4 mt-6">
 					<a
 						target="_blank"
 						rel="noreferrer"
@@ -63,17 +62,19 @@ const ProjectItem = ({
 
 				<div className="flex space-x-2">
 					{tags.map((tag) => (
-						<Tag type={tag} />
+						<Tag type={tag} key={tag} />
 					))}
 				</div>
 			</div>
 
 			{/* <div className="aspect-w-2 sm:aspect-w-3 aspect-h-1 w-full order-1 xl:order-none max-w-md lg:max-w-lg xl:max-w-mdxl:max-w-none"> */}
-			<img
-				src={image}
-				alt=""
-				className="object-cover rounded w-[550px]"
-			/>
+			<a target="_blank" rel="noreferrer" href={demoUrl}>
+				<img
+					src={image}
+					alt=""
+					className="object-cover rounded w-[550px] hover:opacity-80 transition"
+				/>
+			</a>
 			{/* </div> */}
 		</div>
 	);

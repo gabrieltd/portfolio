@@ -51,10 +51,9 @@ const Profile = () => {
 								</span>
 
 								<h3 className="font-serif text-gray-600 lg:text-[1.05rem] text-lg mt-5 max-w-md">
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Non deleniti ea ex
-									mollitia dignissimos maiores iusto eveniet
-									numquam perspiciatis.
+									Egresado de Ingeniería Civil en Computación
+									e Informática y Desarrollador web. Siempre
+									aprendiendo.
 								</h3>
 							</div>
 						</div>
