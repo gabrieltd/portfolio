@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import image from "../assets/placeholder.png";
-import photo from "../assets/photo.jpg";
+import photo from "../assets/photo.png";
 import BackgroundOptions from "./BackgroundOptions";
 import MouseIcon from "./MouseIcon";
 
@@ -13,15 +13,15 @@ const Profile = () => {
 
 	return (
 		<>
-			<div className="bg-white relative overflow-hidden selection:bg-[#ffc64c]">
+			<div className="bg-[#f8f8f8] relative overflow-hidden selection:bg-[#ffc64c]">
 				<BackgroundOptions handleOpen={handleOpen} openState={open} />
 
 				<div
-					className={`bg-white z-20 relative transition duration-500 ${
+					className={`bg-[#f9f9f9] z-20 relative transition duration-500 ${
 						open ? "translate-y-12 md:translate-y-10 -rotate-6" : ""
 					}`}
 				>
-					<div className="absolute bg-white top-0 -right-40 w-[1200rem] h-40"></div>
+					<div className="absolute bg-[#f9f9f9] top-0 -right-40 w-[1200rem] h-40"></div>
 
 					<div className="max-w-5xl m-auto h-screen flex flex-col justify-between py-4">
 						<span></span>
