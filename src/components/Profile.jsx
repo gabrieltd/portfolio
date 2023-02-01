@@ -51,9 +51,8 @@ const Profile = () => {
 								</span>
 
 								<h3 className="font-serif text-gray-600 lg:text-[1.05rem] text-lg mt-5 max-w-md">
-									Egresado de Ingeniería Civil en Computación
-									e Informática y Desarrollador web. Siempre
-									aprendiendo.
+									Desarrollador web. Egresado de Ingeniería
+									Civil en Computación e Informática. Chile.
 								</h3>
 							</div>
 						</div>

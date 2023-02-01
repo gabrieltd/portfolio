@@ -12,14 +12,14 @@ const Projects = () => {
 				<ProjectItem
 					title="Kanban"
 					image={kanbanPreview}
-					tags={["angular", "node"]}
+					tags={["angular", "node", "typescript"]}
 					backendUrl="https://github.com/gabrieltd/kanban-backend-ts"
 					frontendUrl="https://github.com/gabrieltd/kanban-frontend-angular"
 					demoUrl="https://kanban-frontend-angular.vercel.app"
 				>
-					Aplicación web fullstack de tableros kanban desarrollada
-					utilzando Angular, ExpressJS con Typescript, Prisma y
-					PostgreSQL.
+					Aplicación web fullstack de tableros kanban colaborativos en
+					tiempo real. Desarrollada utilzando Angular, ExpressJS con
+					Typescript, Prisma y PostgreSQL.
 				</ProjectItem>
 			</div>
 		</div>

@@ -4,6 +4,7 @@ import springLogo from "../assets/spring-logo.png";
 import reactLogo from "../assets/react-logo.png";
 import pythonLogo from "../assets/python-logo.png";
 import angularLogo from "../assets/angular-logo.png";
+import typescriptLogo from "../assets/typescript-logo.png";
 
 const Tag = ({ type }) => {
 	const tagSettings = [
@@ -41,6 +42,13 @@ const Tag = ({ type }) => {
 			bgColor: "bg-gray-800",
 			width: "w-[18px]",
 			heigth: "w-[18px]",
+		},
+		{
+			name: "Typescript",
+			img: typescriptLogo,
+			bgColor: "bg-[#4378c6]",
+			width: "w-[15px]",
+			heigth: "w-[15px]",
 		},
 	];
 
